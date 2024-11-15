@@ -1,0 +1,22 @@
+@import url(/fonts/fonts.css);
+
+.intro {
+    width: 66vmax;
+    margin-top: 7.2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1023px) {
+
+    .intro {
+        width: 95vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .intro {
+        width: 93%;
+    }
+}    

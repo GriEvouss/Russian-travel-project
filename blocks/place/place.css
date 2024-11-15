@@ -1,0 +1,22 @@
+@import url(/fonts/fonts.css);
+
+.place {
+    display: grid;
+    grid-template-columns: 19fr 20fr;
+    grid-template-rows: repeat(2, min-content);
+    grid-auto-flow: column;
+    column-gap: 3vw;
+    row-gap: 48px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .place {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, min-content);
+        column-gap: 3vw;
+        row-gap: 32px;
+    }
+}    
+

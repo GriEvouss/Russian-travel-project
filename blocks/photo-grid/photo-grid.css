@@ -1,0 +1,25 @@
+@import url(/fonts/fonts.css);
+
+.photo-grid {
+    width: 95%;
+    margin-top: 92px;
+} 
+
+@media screen and (min-width: 1280px) {
+    .photo-grid{
+        width: 96vw;
+    }
+    
+} 
+
+@media screen and (max-width: 1023px) {
+    
+    .places {
+        width: 95vw;
+    }
+    
+
+    .photo-grid {
+        width: 95vw;
+    } 
+}    
